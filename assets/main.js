@@ -21,4 +21,8 @@ function date() {
     document.getElementById("demo").innerHTML = t;
 }
 
+// Setting up the scheduler
 
+var scheduler = new p.Calendar(document.getElementById("container"));
+
+scheduler.render();
